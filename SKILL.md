@@ -1,25 +1,9 @@
 ---
 name: translation
 description: Orchestrate translation operations — translate text between 200+ languages, detect languages, batch translate into multiple targets, and search human-verified translation memory. Use when translating content, detecting what language text is in, translating into multiple languages at once, or finding verified translations.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-translate server connected (MyMemory — free, no API keys, zero config).
-allowed-tools:
-  - translate
-  - detect_language
-  - batch_translate
-  - search_translation_memory
-  - list_languages
-tags:
-  - communication
-  - translation
-  - languages
-  - multilingual
-  - localization
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [translate, detect_language, batch_translate, search_translation_memory, list_languages]
 metadata:
   author: Zavora AI
   mcp-server: mcp-translate
